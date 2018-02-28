@@ -36,6 +36,9 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 
+# SITEMAP
+SITE_ID = 1
+
 # Application definition
 
 INSTALLED_APPS = (
@@ -45,6 +48,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
     'blog',
     'taggit',
 )
